@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,600&display=swap");
+
+header {
+  height: 65px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1.4rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--font-black);
+  font-family: "Young Serif", serif;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+  color: #666;
+}
+
+@media only screen and (max-width: 600px) {
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+
+  .hamburger {
+    display: block;
+    position: fixed;
+    top: 5vh;
+    left: 10vw;
+    z-index: 100;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: bisque;
+  }
+}

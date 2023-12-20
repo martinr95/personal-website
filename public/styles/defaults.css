@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Young Serif", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --main-primary: #00697b;
+  --primary-variation-idea: #5846f9;
+  --white: #f4f4f4;
+  --font-black: #333;
+  --primary-dark: #264653;
+  --secondary-main: #e9c46a;
+
+  font-size: 16px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inline-block;
+  }
+}
