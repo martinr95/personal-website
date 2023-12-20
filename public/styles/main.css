@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,600&display=swap");
+
+:root {
+  --main-primary: #00697b;
+  --primary-variation-idea: #5846f9;
+  --white: #f4f4f4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--white);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: var(--main-primary);
+  color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+main {
+  position: relative;
+  width: 100vw;
+}
+
+main aside {
+  padding: 3rem;
+  position: absolute;
+  right: 80px;
+  top: 120px;
+  width: 800px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 15px #00000032);
+}
+
+main aside h2 {
+  margin-bottom: 2rem;
+}
+
+main aside p {
+  text-align: justify;
+}
+
+/* SMALLER STUFF */
+
+.toggle-tooltips-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  background-color: var(--white);
+  border: 2px solid var(--main-primary);
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  height: 40px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in;
+}
+
+.toggle-tooltips-btn:hover {
+  scale: 1.05;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
