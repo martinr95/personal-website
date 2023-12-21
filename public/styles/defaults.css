@@ -22,12 +22,11 @@ a {
 }
 
 :root {
-  --main-primary: #00697b;
-  --primary-variation-idea: #5846f9;
   --white: #f4f4f4;
   --font-black: #333;
   --primary-dark: #264653;
   --secondary-main: #e9c46a;
+  --secondary-light: #e0c3fc;
 
   font-size: 16px;
 }
