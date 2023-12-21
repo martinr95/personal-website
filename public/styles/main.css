@@ -20,7 +20,7 @@ body {
   width: 100vw;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .page {
     max-height: 100vh !important;
     width: 100vw;

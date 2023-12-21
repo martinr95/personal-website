@@ -11,15 +11,12 @@
     <link rel="stylesheet" href="public/styles/cv.css" />
   </head>
   <body>
-    <header>
+    <header class="desktop">
       <div class="container">
-        <a href="#"><img src="./public/images/icon.png" alt="My Icon" /></a>
+        <a href="#" class="desktop"
+          ><img src="./public/images/icon.png" alt="My Icon"
+        /></a>
         <nav>
-          <div class="burger-menu">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-          </div>
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#bio">Bio & CV</a></li>
@@ -28,6 +25,21 @@
           </ul>
         </nav>
       </div>
+    </header>
+    <header class="mobile">
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <nav>
+        <ul class="nav-links-mobile">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#bio">Bio & CV</a></li>
+          <li><a href="#blog">Blog & Moments</a></li>
+          <li><a href="#projects">Publications & Projects</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section class="start-page" id="start">
@@ -46,7 +58,6 @@
           stroke-width="8"
         />
       </svg>
-
       <svg
         class="mobile"
         id="logo-small"
@@ -219,5 +230,6 @@
     </section>
     <script src="js/lazy.js"></script>
     <script src="js/script.js"></script>
+    <script src="./js/navigation.js"></script>
   </body>
 </html>

@@ -10,3 +10,9 @@ Deployed to Github "personal-website"
 alpha_4-0
 Get rid of ejs and replace with html, css, js
 MAJOR design changes (readapting style of alpha 2.1 and merging it with inputs from alpha_3-0)
+MAJORMAJOR mobile adaptation. Finished.
+MAJOR adaptation to a lot of different screen sizes
+Working hamburger menu with toggle
+HAPPY
+
+***
