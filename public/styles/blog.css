@@ -60,18 +60,29 @@ nav ul li a {
   }
 
   .blog-container {
+    position: relative;
     display: block;
     overflow-x: hidden;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
     height: 100vh;
+    z-index: 1000; /*In front of hamburger*/
+  }
+
+  #gototop-mobile {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 50px;
+    height: 50px;
   }
 
   .blog {
+    position: relative;
     background-color: var(--secondary-main);
     width: 100vw;
     height: 100vh;
-    padding: 1rem;
+    padding: 3rem 2rem;
     margin: 0;
     border-radius: 0;
     overflow: hidden;
