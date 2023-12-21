@@ -60,9 +60,11 @@ nav ul li a {
   }
 
   .blog-container {
+    display: block;
     overflow-x: hidden;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
+    height: 100vh;
   }
 
   .blog {
