@@ -138,7 +138,7 @@ h3 {
   }
 
   #logo-small {
-    transform: translateY(80px);
+    transform: translateY(50px);
     animation: animate 6s ease forwards;
     stroke-dasharray: 3000;
     stroke-dashoffset: 3000;
