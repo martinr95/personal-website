@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
 *,
 *::before,
 *::after {
@@ -25,6 +28,7 @@ a {
   --white: #f4f4f4;
   --font-black: #333;
   --primary-dark: #264653;
+  --primary-very-dark: rgb(19, 35, 41);
   --secondary-main: #e9c46a;
   --secondary-light: #e0c3fc;
 

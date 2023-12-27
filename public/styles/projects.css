@@ -12,12 +12,12 @@ nav ul li a {
   color: var(--white);
 }
 
-.blog-home {
+.pp-home {
   width: 100vw;
   height: 100vh;
 }
 
-.blog-container {
+.pp-container {
   width: 100vw;
   position: relative;
   display: flex;
@@ -26,7 +26,7 @@ nav ul li a {
   scroll-behavior: smooth;
 }
 
-.blog {
+.pp {
   /*
   background-color: var(--primary-very-dark);
   border-radius: 10px;
@@ -39,15 +39,15 @@ nav ul li a {
   margin: 20px 0 100px 0;
 }
 
-.blog h2 {
+.pp h2 {
   margin-bottom: 1rem;
   color: var(--white);
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
 
-.blog h4 {
-  margin-bottom: 4rem;
+.pp h5 {
+  margin-bottom: 1rem;
   font-size: 0.7rem;
   font-family: "Open Sans", sans-serif;
   color: var(--white);
@@ -55,7 +55,11 @@ nav ul li a {
   font-style: italic;
 }
 
-.blog-img {
+.pp h5:last-child {
+  margin-bottom: 4rem;
+}
+
+.pp-img {
   width: 100%;
   aspect-ratio: 16 / 9;
   background-repeat: no-repeat;
@@ -63,7 +67,7 @@ nav ul li a {
   margin-bottom: 2rem;
 }
 
-.blog p {
+.pp p {
   color: var(--white);
   font-family: "Open Sans", sans-serif;
   text-align: justify;
@@ -77,7 +81,7 @@ nav ul li a {
     background-color: var(--secondary-light);
   }
 
-  .blog-container {
+  .pp-container {
     position: relative;
     display: block;
     overflow-x: hidden;
@@ -87,7 +91,7 @@ nav ul li a {
     z-index: 1000; /*In front of hamburger*/
   }
 
-  #gototop-mobile {
+  #pp-gototop-mobile {
     position: absolute;
     bottom: 1rem;
     right: 1rem;
@@ -95,7 +99,7 @@ nav ul li a {
     height: 50px;
   }
 
-  .blog {
+  .pp {
     position: relative;
     border-top: none;
     width: 100vw;
@@ -108,11 +112,15 @@ nav ul li a {
     scroll-snap-stop: always;
   }
 
-  .blog h4 {
+  .pp h5 {
+    margin-bottom: 0.6rem;
+  }
+
+  .pp h5:last-child {
     margin-bottom: 1rem;
   }
 
-  .blog-img {
+  .pp-img {
     width: 100%;
     aspect-ratio: 1 / 1;
     background-repeat: no-repeat;

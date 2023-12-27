@@ -16,3 +16,14 @@ Working hamburger menu with toggle
 HAPPY
 
 ***
+beta_1-0
+MAJOR changes to the design
+added blog pages
+MAJOR mobile optimization and scaling to different screen sizes
+
+***
+beta_1-1
+blog redesign
+added /cv page
+added cv details
+added 
