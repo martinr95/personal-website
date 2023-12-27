@@ -142,6 +142,7 @@ h3 {
     animation: animate 6s ease forwards;
     stroke-dasharray: 3000;
     stroke-dashoffset: 3000;
+    scale: 0.95;
   }
 
   @keyframes animate {

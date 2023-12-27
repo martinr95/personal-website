@@ -26,4 +26,11 @@ beta_1-1
 blog redesign
 added /cv page
 added cv details
-added 
+added projects page and first projects
+
+***
+beta_1-2
+added publications folder
+added single-publication structure and css
+changed description of myself on index.html
+added publications
