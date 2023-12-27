@@ -18,6 +18,19 @@ nav ul li a {
 .pp-home {
   width: 100vw;
   height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.pp-home article {
+  margin-top: 80px;
+  color: var(--white);
+  border-top: 4px solid var(--secondary-light);
+  border-left: 2px solid var(--secondary-light);
+  padding: 4rem;
+  width: 80%;
+  height: 300px;
 }
 
 .pp-container {
@@ -82,6 +95,33 @@ nav ul li a {
 @media only screen and (max-width: 700px) {
   .bar:nth-child(2) {
     background-color: var(--secondary-light);
+  }
+
+  .pp-home {
+    margin-top: 40px;
+    display: flex;
+    padding: 2rem 0;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .pp-home article {
+    height: 50%;
+    width: 90%;
+    padding: 3rem 2rem;
+    border-top: 4px solid var(--secondary-main);
+    border-left: 2px solid var(--secondary-main);
+    border-right: 2px solid var(--secondary-main);
+    color: var(--white);
+  }
+
+  .pp-home article h2 {
+    margin-bottom: 2rem;
+  }
+
+  .pp-home article p {
+    text-align: justify;
   }
 
   .pp-container {

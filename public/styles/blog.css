@@ -77,6 +77,35 @@ nav ul li a {
     background-color: var(--secondary-light);
   }
 
+  .blog-home {
+    display: flex;
+    justify-content: center;
+  }
+
+  .blog-home .mobile {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    color: var(--white);
+  }
+
+  .blog-home .mobile {
+    height: 50%;
+    width: 90%;
+    padding: 3rem 2rem;
+    border-top: 4px solid var(--secondary-main);
+    border-left: 2px solid var(--secondary-main);
+    border-right: 2px solid var(--secondary-main);
+    color: var(--white);
+  }
+
+  .blog-home .mobile h2 {
+    margin-bottom: 2rem;
+  }
+
   .blog-container {
     position: relative;
     display: block;
