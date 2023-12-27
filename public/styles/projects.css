@@ -95,6 +95,7 @@ nav ul li a {
   }
 
   #pp-gototop-mobile {
+    color: var(--secondary-light);
     position: absolute;
     bottom: 1rem;
     right: 1rem;
@@ -107,7 +108,7 @@ nav ul li a {
     border-top: none;
     width: 100vw;
     height: 100vh;
-    padding: 80px 2rem 3rem 2rem;
+    padding: 3rem 2rem 3rem 2rem;
     margin: 0;
     border-radius: 0;
     overflow: hidden;
