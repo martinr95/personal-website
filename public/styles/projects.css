@@ -115,8 +115,12 @@ nav ul li a {
     scroll-snap-stop: always;
   }
 
+  .pp h2 {
+    font-size: 14px;
+  }
+
   .pp h5 {
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.4rem;
   }
 
   .pp h5:last-child {
@@ -128,6 +132,10 @@ nav ul li a {
     aspect-ratio: 1 / 1;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 1rem;
+    margin: 1.4rem 0;
+  }
+
+  .pp p {
+    font-size: 12px;
   }
 }

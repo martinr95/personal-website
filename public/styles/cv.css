@@ -124,6 +124,10 @@
     border: none;
   }
 
+  .cv-article p {
+    font-size: 14px;
+  }
+
   .greyed {
     background-color: #999;
     filter: blur(0.5px);

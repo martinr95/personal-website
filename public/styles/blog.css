@@ -108,8 +108,12 @@ nav ul li a {
     scroll-snap-stop: always;
   }
 
+  .blog h2 {
+    font-size: 14px;
+  }
+
   .blog h4 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   .blog-img {
@@ -117,6 +121,10 @@ nav ul li a {
     aspect-ratio: 1 / 1;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 1rem;
+    margin: 1.4rem 0;
+  }
+
+  .blog p {
+    font-size: 12px;
   }
 }
